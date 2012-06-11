@@ -27,13 +27,14 @@ vagrant up
 
 Notes
 -----
-The virual host configured for host wheel.local. to use this add this to your hosts file.
-just in case you don't know the paths, i have provided them below.
+A virual host of wheel.local has already been configured. To use this add the following to your hosts file.
+
+```
+10.0.0.2 wheel.local #wheel easy install
+```
+Just in case you don't know the paths, i have provided them below.
 * Windows = c:\windows\system32\drivers\etc\hosts
 * Linux = /etc/hosts
-* Mac = To be honest I'm not a Mac use but im pretty sure the path would be similar to Linux
-```
-10.0.0.2 wheel.local
-```
+* Mac = To be honest I'm not a Mac user but I'm pretty sure the path would be similar to Linux.
 
-You can also change the ip address of the machine be changing "config.vm.network" in vagrant/Vagrantfile
+You can also change the IP address of the machine be changing "config.vm.network" in vagrant/Vagrantfile. Just remember to update the hosts file to the new IP
