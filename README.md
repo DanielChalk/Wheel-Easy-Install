@@ -15,7 +15,7 @@ Running
 * run "vagrant up"
 * once vagrant and puppet have finished doing their work you should be able to see wheel running on [http://10.0.0.2](http://10.0.0.2 "default host only address")
 
-If your feeling really lazy
+If you're feeling really lazy
 ---------------------------
 use the script below to get the project checked out and running
 ```bash
