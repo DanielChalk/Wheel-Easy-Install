@@ -18,7 +18,7 @@ Running
 If your feeling really lazy
 ---------------------------
 use the script below to get the project checked out and running
-```sh
+```bash
 #mkdir and cd into that directory first please!
 git clone git://github.com/SnatchFrigate/Wheel-Easy-Install.git .
 cd ./vagrant
